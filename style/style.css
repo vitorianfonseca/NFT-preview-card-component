@@ -63,6 +63,11 @@ main {
     font-weight: 600;
 }
 
+.card h1:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
 .card p {
     margin-top: 1rem;
     /* text style */
@@ -90,6 +95,11 @@ main {
 .footer_card p {
     margin-bottom: 1rem;
     color: var(--text-white);
+}
+
+.footer_card p:hover {
+    color: #00FFF8;
+    cursor: pointer;
 }
 
 .footer_card span {
