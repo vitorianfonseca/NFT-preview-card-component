@@ -31,7 +31,6 @@ main {
 .image_card {
     position: relative;
     overflow: hidden;
-    margin-top: 0.75rem;
     }
 
   .image_card img {
