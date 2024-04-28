@@ -87,13 +87,14 @@ main {
     display: flex;
     align-items: center;
     gap: 1rem;
-    padding-top: 1rem;
+    margin-bottom: -1rem;
+    padding-top: 0.5rem;
     margin-top: 1.5rem;
     border-top: 2px solid #2E405A;
 }
 
 .footer_card p {
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
     color: var(--text-white);
 }
 
