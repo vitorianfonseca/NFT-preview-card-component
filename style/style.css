@@ -28,9 +28,33 @@ main {
     background-color: var(--bg-color-card);
 }
 
-.image img {
-    max-width: 18.875rem;
-}
+.image_card {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0.75rem;
+    }
+
+  .image_card img {
+    display: block;
+    margin: auto;
+  }
+
+  .overlay {
+    height: 0;
+    width: 100%;
+    background: url(assets/overlay.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+  .image_card:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+  }
+
 
 .card h1 {
     margin-top: 1.5rem;
